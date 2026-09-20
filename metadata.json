@@ -1,0 +1,6 @@
+{
+  "name": "ER-AEGIS",
+  "description": "AI Emergency Response & Resource Intelligence System - Hospital operations command center for congestion forecasting and resource pressure intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

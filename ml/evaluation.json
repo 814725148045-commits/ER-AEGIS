@@ -1,0 +1,200 @@
+{
+  "dataset_rows": 1344,
+  "training_rows": 1075,
+  "testing_rows": 269,
+  "accuracy": 0.9294,
+  "precision": 0.8652,
+  "recall": 0.9167,
+  "f1_score": 0.8902,
+  "roc_auc": 0.9816,
+  "high_congestion_recall": 0.9167,
+  "confusion_matrix": {
+    "true_negatives": 173,
+    "false_positives": 12,
+    "false_negatives": 7,
+    "true_positives": 77,
+    "matrix_list": [
+      [
+        173,
+        12
+      ],
+      [
+        7,
+        77
+      ]
+    ]
+  },
+  "top_feature_importance": [
+    {
+      "feature": "patients_waiting",
+      "importance": 0.233
+    },
+    {
+      "feature": "congestion_score",
+      "importance": 0.1884
+    },
+    {
+      "feature": "average_wait_time",
+      "importance": 0.163
+    },
+    {
+      "feature": "staff_capacity_score",
+      "importance": 0.0564
+    },
+    {
+      "feature": "wait_time_change_1h",
+      "importance": 0.0525
+    },
+    {
+      "feature": "bed_occupancy_rate",
+      "importance": 0.0408
+    },
+    {
+      "feature": "patients_arrived_last_2h",
+      "importance": 0.0374
+    },
+    {
+      "feature": "beds_occupied",
+      "importance": 0.0322
+    },
+    {
+      "feature": "average_treatment_time",
+      "importance": 0.0288
+    },
+    {
+      "feature": "beds_available",
+      "importance": 0.0256
+    }
+  ],
+  "all_feature_importance": [
+    {
+      "feature": "patients_waiting",
+      "importance": 0.233
+    },
+    {
+      "feature": "congestion_score",
+      "importance": 0.1884
+    },
+    {
+      "feature": "average_wait_time",
+      "importance": 0.163
+    },
+    {
+      "feature": "staff_capacity_score",
+      "importance": 0.0564
+    },
+    {
+      "feature": "wait_time_change_1h",
+      "importance": 0.0525
+    },
+    {
+      "feature": "bed_occupancy_rate",
+      "importance": 0.0408
+    },
+    {
+      "feature": "patients_arrived_last_2h",
+      "importance": 0.0374
+    },
+    {
+      "feature": "beds_occupied",
+      "importance": 0.0322
+    },
+    {
+      "feature": "average_treatment_time",
+      "importance": 0.0288
+    },
+    {
+      "feature": "beds_available",
+      "importance": 0.0256
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0157
+    },
+    {
+      "feature": "treatment_rate_per_hour",
+      "importance": 0.015
+    },
+    {
+      "feature": "arrival_rate_per_hour",
+      "importance": 0.0149
+    },
+    {
+      "feature": "patients_treated_last_1h",
+      "importance": 0.0135
+    },
+    {
+      "feature": "patients_waiting_change_1h",
+      "importance": 0.0126
+    },
+    {
+      "feature": "patients_arrived_last_1h",
+      "importance": 0.0126
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0103
+    },
+    {
+      "feature": "congestion_score_change_1h",
+      "importance": 0.0095
+    },
+    {
+      "feature": "bed_occupancy_change_1h",
+      "importance": 0.0081
+    },
+    {
+      "feature": "ambulance_arrivals",
+      "importance": 0.0069
+    },
+    {
+      "feature": "nurses_available",
+      "importance": 0.0054
+    },
+    {
+      "feature": "patients_arrived",
+      "importance": 0.0039
+    },
+    {
+      "feature": "support_staff_available",
+      "importance": 0.0038
+    },
+    {
+      "feature": "doctors_available",
+      "importance": 0.0034
+    },
+    {
+      "feature": "patients_treated",
+      "importance": 0.003
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0015
+    },
+    {
+      "feature": "admissions",
+      "importance": 0.0008
+    },
+    {
+      "feature": "discharges",
+      "importance": 0.0008
+    }
+  ],
+  "model_parameters": {
+    "model_type": "RandomForestClassifier",
+    "n_estimators": 300,
+    "class_weight": "balanced",
+    "max_depth": 14,
+    "min_samples_split": 4,
+    "min_samples_leaf": 2,
+    "random_state": 42
+  },
+  "risk_thresholds": {
+    "LOW": "0.00 - 0.39",
+    "MODERATE": "0.40 - 0.64",
+    "HIGH": "0.65 - 0.84",
+    "CRITICAL": "0.85 - 1.00"
+  },
+  "disclaimer": "This model is a hackathon prototype trained on synthetic operational data. It is NOT clinically validated, should NOT be used for clinical decision-making, does NOT diagnose patients, and does NOT recommend treatment.",
+  "training_timestamp": "2026-09-20 06:23:49 UTC"
+}

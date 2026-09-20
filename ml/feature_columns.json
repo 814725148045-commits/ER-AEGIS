@@ -1,0 +1,32 @@
+{
+  "feature_columns": [
+    "patients_arrived",
+    "ambulance_arrivals",
+    "patients_waiting",
+    "patients_treated",
+    "beds_occupied",
+    "beds_available",
+    "doctors_available",
+    "nurses_available",
+    "support_staff_available",
+    "average_wait_time",
+    "average_treatment_time",
+    "admissions",
+    "discharges",
+    "arrival_rate_per_hour",
+    "treatment_rate_per_hour",
+    "bed_occupancy_rate",
+    "staff_capacity_score",
+    "congestion_score",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "patients_arrived_last_1h",
+    "patients_arrived_last_2h",
+    "patients_treated_last_1h",
+    "patients_waiting_change_1h",
+    "congestion_score_change_1h",
+    "bed_occupancy_change_1h",
+    "wait_time_change_1h"
+  ]
+}
